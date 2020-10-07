@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joshua Riley - Final - Web 1.0</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <div id="first-parent">
+            <section id="student-info">
+                <h1>
+                    Josh
+                </h1>
+                <p>
+                    My favorite color is Black and I wear Dress Shoes
+                </p>
+            </section>
+
+            <section id="data-input">
+                <h1>
+                    Font Styler
+                </h1>
+                <form id="input-form">
+                    <Label for="input-size">Font Size</Label>
+                        <input id="input-size" type="number">
+
+                    <Label for="select-font">Font Family</Label>
+                        <select id="select-font">
+                            <option>Helvetic</option>
+                            <option>Arial</option>
+                            <option>Times New Roman</option>
+                            <option>Georgia</option>
+                        </select>
+
+                    <Label for="input-color">Font Color</Label>
+                        <input id="input-color" type="color" value="#000">
+
+                    <Label for="input-bg-color">Background Color</Label>
+                        <input id="input-bg-color" type="color" value="#fff">
+
+                    <Label for="enter-text"></Label>
+                        <textarea id="enter-text"></textarea>
+                </form>
+            </section>
+        </div>
+
+        <div id="second-parent">
+            <section id="headline-display">
+                <h1 id="display"></h1>
+            </section>
+
+            <section id="headline-display">
+                <pre><code>.headline {
+                    font-size: <span id="show-size">16</span>px;
+                    font-family: <span id="show-font">Times</span>;
+                    color: <span id="show-color">#000</span>;
+                    background-color: <span id="show-bg-color">#fff</span>;
+                }</code></pre>
+            </section>
+        </div>
+        <script src="/script.js" type="module"> </script>
+    </body>
+</html>
